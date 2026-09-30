@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Living Picture Book</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at center, #24211b 0%, #11100e 48%, #050505 100%);
+      color: #d8bd72;
+      font-family: Georgia, "Times New Roman", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .book {
+      width: min(92%, 760px);
+      padding: 60px 25px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 8vw, 5rem);
+      font-weight: normal;
+      letter-spacing: 0.04em;
+      text-transform: lowercase;
+      text-shadow: 0 2px 12px rgba(216,189,114,.2);
+    }
+
+    .line {
+      width: 90px;
+      height: 1px;
+      margin: 28px auto;
+      background: #8f7841;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: #aaa18d;
+      font-size: 1rem;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+    }
+
+    .door {
+      display: inline-block;
+      margin-top: 55px;
+      padding: 13px 24px;
+      border: 1px solid #8f7841;
+      color: #d8bd72;
+      text-decoration: none;
+      letter-spacing: .12em;
+      transition: .3s;
+    }
+
+    .door:hover {
+      background: #d8bd72;
+      color: #111;
+    }
+
+    footer {
+      margin-top: 80px;
+      color: #5e594e;
+      font-size: .75rem;
+      letter-spacing: .12em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="book">
+
+    <h1>the living picture book</h1>
+
+    <div class="line"></div>
+
+    <p class="subtitle">
+      78 windows into a symbolic world
+    </p>
+
+    <a class="door" href="#">
+      enter
+    </a>
+
+    <footer>
+      a cabinet of symbols, accidents &amp; connections
+    </footer>
+
+  </main>
+
+</body>
+  </html>
